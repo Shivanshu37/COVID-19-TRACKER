@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+.Cards {
+  padding: 20px;
+}
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f6fa;
+  padding: 20px;
+}
+.app__information {
+  overflow-y: scroll;
+  height: 600px;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}

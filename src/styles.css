@@ -1,0 +1,26 @@
+.App {
+  font-family: monospace;
+  text-align: center;
+  background-color: #f5f6fa;
+}
+
+.table {
+  margin: 0 auto;
+}
+th,
+td {
+  padding: 20px;
+}
+.TimePosition {
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.stateTable {
+  margin: 0 auto;
+}
+.headingPosition {
+  margin: 0 auto;
+}
+.stateTablePosition {
+  margin: 0 auto;
+}
